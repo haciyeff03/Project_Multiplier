@@ -1,0 +1,28 @@
+{
+  "name": "project_multiplier_03",
+  "version": "1.0.0",
+  "description": "Qurban_project_Multiplier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haciyeff03/Project_Multiplier_03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haciyeff03/Project_Multiplier_03/issues"
+  },
+  "homepage": "https://github.com/haciyeff03/Project_Multiplier_03#readme",
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "pretty-quick": "^3.1.3"
+  }
+}
