@@ -1,0 +1,300 @@
+#login {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 500px) {
+  #login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+}
+#login .left {
+  position: relative;
+  width: 770px;
+  background-color: rgb(0, 28, 99);
+  height: 721px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  #login .left {
+    display: none !important;
+  }
+}
+#login .left .img {
+  position: absolute;
+  height: 100rem;
+  width: 770px;
+}
+#login .left .img img {
+  height: 100rem;
+  width: 770px;
+  box-sizing: border-box;
+}
+#login .left .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 36px;
+  z-index: 3000;
+}
+#login .left .text .logo {
+  z-index: 300;
+}
+#login .left .text .logo h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 560;
+  color: white;
+  z-index: 300;
+}
+#login .left .text .alt {
+  margin-top: 520px;
+}
+#login .left .text .alt h3 {
+  font-size: 27px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 610;
+  color: white;
+}
+#login .left .text .alt h4 {
+  margin-top: 8px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+#login .rigth {
+  justify-content: center;
+  width: 725px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  #login .rigth {
+    padding: 40px;
+    margin-top: 50px;
+  }
+}
+#login .rigth .ust {
+  width: 460px;
+  height: 588px;
+}
+@media (max-width: 500px) {
+  #login .rigth .ust {
+    width: 60%;
+  }
+}
+@media (max-width: 400px) {
+  #login .rigth .ust {
+    width: 54%;
+  }
+}
+#login .rigth .ust h2 {
+  font-size: 38px;
+  color: #001c63;
+  font-weight: 630;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+@media (max-width: 400px) {
+  #login .rigth .ust h2 {
+    font-size: 27px;
+    margin-left: 10px;
+  }
+}
+#login .rigth .ust h4 {
+  margin-top: 10px;
+  color: #8997c7;
+  font-size: 18px;
+  font-weight: 489;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+@media (max-width: 400px) {
+  #login .rigth .ust h4 {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+#login .rigth .ust .google {
+  cursor: pointer;
+  margin-left: 17px;
+  margin-top: 34px;
+  background-color: rgb(248, 244, 244);
+  width: 400px;
+  height: 50px;
+  border: 1.5px solid rgb(177, 169, 169);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  #login .rigth .ust .google {
+    width: 300px;
+    height: 50px;
+  }
+}
+#login .rigth .ust .google i {
+  cursor: pointer;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(37, 171, 88);
+}
+#login .rigth .ust .google h3 {
+  margin-left: 80px;
+  font-weight: 510;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+@media (max-width: 500px) {
+  #login .rigth .ust .google h3 {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 360px) {
+  #login .rigth .ust .google h3 {
+    margin-left: 1px;
+  }
+}
+#login .rigth .ust hr {
+  margin-top: 40px;
+}
+#login .rigth .ust .lgn h4 {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #001c63;
+  font-weight: 560;
+}
+#login .rigth .ust .lgn input {
+  margin-top: 16px;
+  width: 436px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 5px;
+  border-color: rgb(208, 204, 204);
+}
+@media (max-width: 500px) {
+  #login .rigth .ust .lgn input {
+    width: 100%;
+    height: 50px;
+  }
+}
+#login .rigth .ust .lgn :focus {
+  box-shadow: -9px 22px 34px -9px rgba(102, 112, 129, 0.83);
+  -webkit-box-shadow: -9px 22px 34px -9px rgba(102, 112, 129, 0.83);
+  -moz-box-shadow: -9px 22px 34px -9px rgba(102, 112, 129, 0.83);
+  outline: transparent solid 2px;
+  border-color: #2563eb;
+  outline-offset: 2px;
+}
+#login .rigth .ust .password .text {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 436px;
+}
+@media (max-width: 500px) {
+  #login .rigth .ust .password .text {
+    width: 100%;
+  }
+}
+#login .rigth .ust .password .text h3 {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #001c63;
+  font-weight: 450;
+}
+#login .rigth .ust .password .text h5 {
+  cursor: pointer;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #abb2d9;
+  font-weight: 450;
+}
+#login .rigth .ust .password .input input {
+  margin-top: 16px;
+  width: 436px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 5px;
+  border-color: rgb(230, 226, 226);
+}
+@media (max-width: 500px) {
+  #login .rigth .ust .password .input input {
+    width: 100%;
+  }
+}
+#login .rigth .ust .password .input :focus {
+  box-shadow: -9px 22px 34px -9px rgba(102, 112, 129, 0.83);
+  -webkit-box-shadow: -9px 22px 34px -9px rgba(102, 112, 129, 0.83);
+  -moz-box-shadow: -9px 22px 34px -9px rgba(102, 112, 129, 0.83);
+  outline: transparent solid 2px;
+  border-color: #2563eb;
+  outline-offset: 2px;
+}
+#login .rigth .ust .password .sumbit {
+  margin-top: 14px;
+  align-items: center;
+  display: flex;
+}
+#login .rigth .ust .password .sumbit input {
+  width: 28px;
+  height: 28px;
+  border-radius: 10px;
+}
+#login .rigth .ust .password .sumbit label {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #001c63;
+  padding: 0 10px;
+  opacity: 0.7;
+}
+#login .rigth .ust .password .alt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#login .rigth .ust .password .alt button {
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #d2d4e0;
+  color: #7886d5;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 104px;
+  height: 64px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+#login .rigth .ust .password .alt h4 {
+  font-size: 16px;
+  color: black;
+  font-family: sans-serif;
+  margin-top: 34px;
+}
+#login .rigth .ust .password .alt h4 a {
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+} /*# sourceMappingURL=style.css.map */
