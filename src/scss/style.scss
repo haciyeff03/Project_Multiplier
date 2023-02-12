@@ -1,9 +1,16 @@
+@import "partials/variable";
+@import "partials/mixin";
+@import "layout/navbar";
 @import "pages/login/login";
 @import "pages/signup/signup";
+@import "pages/blog/blog";
+@import "layout/footer";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   outline: none;
+  text-decoration: none !important;
+  list-style: none !important;
 }
