@@ -1,0 +1,97 @@
+#swipper {
+  margin-top: 500px;
+
+  .swiper-slide {
+    background-color: #e9eaee;
+    width: 650px;
+    padding: 32px 30px;
+    height: 310px;
+    position: relative;
+    border-radius: 12px;
+
+    @media (max-width: 768px) {
+      width: 85%;
+      height: auto;
+    }
+
+    @media (max-width: 530px) {
+      width: 90%;
+      height: auto;
+    }
+
+    .img-cont {
+      .img1 {
+        width: 150px;
+        height: 75px;
+      }
+
+      .img2 {
+        width: 60px;
+        height: 61px;
+        margin-bottom: 25px;
+      }
+
+      .img3 {
+        width: 150px;
+        height: 50px;
+        margin-bottom: 25px;
+      }
+
+      .img4 {
+        width: 120px;
+        height: 31px;
+        margin-bottom: 30px;
+      }
+    }
+
+    p {
+      color: #514f6e;
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 400;
+      margin-bottom: 20px;
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 530px) {
+        font-size: 13px;
+        line-height: 25px;
+      }
+    }
+
+    .name2 {
+      margin-top: 60px;
+    }
+
+    .name3 {
+      margin-top: 45px;
+    }
+
+    .name4 {
+      margin-top: 30px;
+    }
+
+    span {
+      color: black;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: sans-serif;
+
+      @media (max-width: 530px) {
+        font-size: 13px;
+      }
+    }
+
+    h5 {
+      color: #6f6c90;
+      font-size: 18px;
+      margin: 0;
+
+      @media (max-width: 530px) {
+        font-size: 15px;
+      }
+    }
+  }
+}
