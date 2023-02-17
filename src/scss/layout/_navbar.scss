@@ -13,14 +13,18 @@ body {
     .container {
       .logo {
         img {
-          @include Image(111px, 25px, contain);
+          width: 111px;
+          height: 25px;
+          object-fit: contain;
         }
       }
 
       .col-6 {
         .nav-links {
           ul {
-            @include Flexible($align-item: center, $wrap: wrap, $gap: 30px);
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
             padding: 0;
             margin: 0;
 

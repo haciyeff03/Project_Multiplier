@@ -9,18 +9,3 @@
   height: $h;
   object-fit: $obj-fit;
 }
-
-@mixin Flexible(
-  $justify: null,
-  $align-item: null,
-  $flexdirection: null,
-  $gap: null,
-  $wrap: null
-) {
-  display: flex;
-  justify-content: $justify;
-  align-items: $align-item;
-  flex-direction: $flexdirection;
-  gap: $gap;
-  flex-wrap: $wrap;
-}
