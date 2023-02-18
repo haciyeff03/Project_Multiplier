@@ -595,9 +595,11 @@
       @media (max-width: 768px) {
         padding: 0 20px;
       }
-      @media (max-width: 450px) {
-        font-size: 20px;
-        width: 100%;
+      @media (max-width: 480px) {
+        font-size: 38px;
+      }
+      @media (max-width: 380px) {
+        font-size: 32 px;
       }
 
       span {
@@ -606,7 +608,7 @@
     }
 
     p {
-      font-size: 23px;
+      font-size: 20px;
       color: #abb2d9;
       line-height: 1.6;
 
@@ -621,6 +623,9 @@
     }
     @media (max-width: 450px) {
       font-size: 20px;
+    }
+    @media (max-width: 378px) {
+      font-size: 10px;
     }
   }
   .items {

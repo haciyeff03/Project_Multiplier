@@ -16,10 +16,16 @@ body nav .container .logo img {
   -o-object-fit: contain;
   object-fit: contain;
 }
+body nav .container .col-6 .nav-links {
+  display: flex;
+  flex-direction: row;
+}
 body nav .container .col-6 .nav-links ul {
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+  display: flex;
+  flex-direction: row;
   padding: 0;
   margin: 0;
 }
@@ -138,6 +144,8 @@ body nav .container .col-6 .nav-links ul #res .hiw-drp .left {
 }
 body nav .container .nav-btns {
   justify-content: end;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
@@ -2218,17 +2226,21 @@ body {
     padding: 0 20px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   #button .ust h2 {
-    font-size: 20px;
-    width: 100%;
+    font-size: 38px;
+  }
+}
+@media (max-width: 380px) {
+  #button .ust h2 {
+    font-size: 32 px;
   }
 }
 #button .ust h2 span {
   color: #6682ff;
 }
 #button .ust p {
-  font-size: 23px;
+  font-size: 20px;
   color: #abb2d9;
   line-height: 1.6;
 }
@@ -2246,6 +2258,11 @@ body {
 @media (max-width: 450px) {
   #button .ust {
     font-size: 20px;
+  }
+}
+@media (max-width: 378px) {
+  #button .ust {
+    font-size: 10px;
   }
 }
 #button .items {

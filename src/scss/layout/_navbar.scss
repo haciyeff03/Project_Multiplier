@@ -21,10 +21,14 @@ body {
 
       .col-6 {
         .nav-links {
+          display: flex;
+          flex-direction: row;
           ul {
             align-items: center;
             flex-wrap: wrap;
             gap: 30px;
+            display: flex;
+            flex-direction: row;
             padding: 0;
             margin: 0;
 
@@ -133,6 +137,8 @@ body {
 
       .nav-btns {
         justify-content: end;
+        display: flex;
+        flex-direction: row;
         align-items: center;
         gap: 20px;
         flex-wrap: wrap;
