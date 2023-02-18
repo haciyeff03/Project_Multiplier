@@ -132,12 +132,10 @@ body {
       }
 
       .nav-btns {
-        @include Flexible(
-          $justify: end,
-          $align-item: center,
-          $gap: 20px,
-          $wrap: wrap
-        );
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
 
         #login {
           padding: 10px;
@@ -187,7 +185,9 @@ body {
       width: 100%;
       padding: 5px 30px;
       position: relative;
-      @include Flexible($justify: space-between, $align-item: center);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       display: none;
       @media (max-width: 440px) {
         padding: 5px 15px;
@@ -223,7 +223,9 @@ body {
         span {
           width: 56px;
           height: 40px;
-          @include Flexible($justify: center, $align-item: center);
+          display: flex;
+          justify-content: center;
+          align-items: center;
           border-radius: 20px;
           background-color: #4e5976;
           cursor: pointer;
@@ -266,8 +268,12 @@ body {
 
       li {
         padding: 15px 30px;
-        @include Flexible($justify: space-between, $align-item: center);
-        @include Font($color: #132a97, $size: 18px, $weight: 500);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #132a97;
+        font-size: 18px;
+        font-weight: 500;
         border-bottom: 1px solid rgba(128, 128, 128, 0.429);
         a {
           @include Font($color: #132a97, $size: 18px, $weight: 500);
@@ -286,7 +292,9 @@ body {
 
     .btns {
       padding: 30px;
-      @include Flexible($justify: space-between, $align-item: center);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       a {
         width: 48%;
         text-align: center;

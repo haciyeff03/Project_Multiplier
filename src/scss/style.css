@@ -17,10 +17,9 @@ body nav .container .logo img {
   object-fit: contain;
 }
 body nav .container .col-6 .nav-links ul {
-  display: flex;
   align-items: center;
-  gap: 30px;
   flex-wrap: wrap;
+  gap: 30px;
   padding: 0;
   margin: 0;
 }
@@ -138,7 +137,6 @@ body nav .container .col-6 .nav-links ul #res .hiw-drp .left {
   padding: 15px;
 }
 body nav .container .nav-btns {
-  display: flex;
   justify-content: end;
   align-items: center;
   gap: 20px;
@@ -273,8 +271,8 @@ body .mobile-menu ul li {
   justify-content: space-between;
   align-items: center;
   color: #132a97;
-  font-weight: 500;
   font-size: 18px;
+  font-weight: 500;
   border-bottom: 1px solid rgba(128, 128, 128, 0.429);
 }
 body .mobile-menu ul li a {
@@ -2222,7 +2220,7 @@ body {
 }
 @media (max-width: 450px) {
   #button .ust h2 {
-    font-size: 27px;
+    font-size: 20px;
     width: 100%;
   }
 }
@@ -2243,6 +2241,11 @@ body {
   #button .ust {
     width: 100%;
     padding-left: 0;
+  }
+}
+@media (max-width: 450px) {
+  #button .ust {
+    font-size: 20px;
   }
 }
 #button .items {
